@@ -11,6 +11,8 @@ module.exports = {
       gray: {
         white: '#e1eaef',
         light: '#b2b8be',
+        dark: '#4e4c4f',
+        black: '#1c1a1f',
       },
       blue: {
         white: '#b1dbe9',
@@ -54,6 +56,10 @@ module.exports = {
       },
     },
     extend: {
+      borderWidth: {
+        '12': '12px',
+      },
+
       fontFamily: {
         sans: ['Barlow', 'sans-serif'],
       },
@@ -62,5 +68,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }

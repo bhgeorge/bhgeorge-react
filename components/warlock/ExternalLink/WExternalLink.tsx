@@ -7,7 +7,7 @@ type ExternalLinkProps = {
 
 const ExternalLink: FunctionComponent<ExternalLinkProps> = ({ href, children }) => <a
     href={href}
-    className="text-purple font-semibold underline hover:text-purple-dark"
+    className="link underline"
     target="_blank"
     rel="noreferrer noopener"
   >

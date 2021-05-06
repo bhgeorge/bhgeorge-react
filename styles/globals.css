@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply font-semibold text-orange hover:text-red-dark dark:text-orange-light dark:hover:text-orange;
+}
